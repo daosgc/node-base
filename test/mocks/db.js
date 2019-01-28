@@ -6,7 +6,7 @@ mockgoose.helper.setDbVersion('3.4.3');
 
 export function connectDB(t, done) {
   mockgoose.prepareStorage().then(() => {
-    mongoose.connect('mongodb://localhost:27017/coupon-db-test', { useMongoClient: true }, (err) => {
+    mongoose.connect('mongodb://localhost:27017/soccer-db-test', { useMongoClient: true }, (err) => {
       done(err);
     });
   });

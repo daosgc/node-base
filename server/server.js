@@ -73,7 +73,7 @@ app.listen(port, function (error) {
   if (error) {
     console.log(error);
   } else {
-    console.log('COUPON API is running on port', app.get('port'))
+    console.log('API is running on port', app.get('port'))
   }
 });
 
